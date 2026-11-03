@@ -1,16 +1,20 @@
 # Papers
 
-Landmark AI research papers, in timeline order, from the earliest ideas to today's large language models.
+Landmark AI research papers in timeline order, from the earliest ideas to today's large language models, plus the techniques that make training and running AI faster and cheaper.
 
 [← Back to AI](README.md)
+
+**Jump to:** [Landmark Papers Timeline](#foundations-19502011) · [Training & Inference Optimization](#training--inference-optimization)
 
 <!--
   How to add a paper:
   - Format: - **[Paper Title](https://link)** (Year) – What it introduced and why it matters.
   - Use the exact paper title. Link to arXiv or the official publication page.
   - This file is sorted by DATE, oldest first (not alphabetically). Put the paper in the
-    matching era section, at its place in time.
-  - New era? Add a new "## Heading" at the bottom, with the year range in brackets.
+    matching section, at its place in time.
+  - Papers about making AI faster, cheaper or smaller (quantization, serving, hardware, etc.)
+    go in "Training & Inference Optimization" at the bottom. Everything else goes in the timeline eras.
+  - New era? Add a new "## Heading" before the optimization section, with the year range in brackets.
   - Search the repository first to avoid duplicates.
 -->
 
@@ -39,7 +43,6 @@ Landmark AI research papers, in timeline order, from the earliest ideas to today
 - **[Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)** (2014) – GoogLeNet / Inception, an efficient very deep image model.
 - **[Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)** (2014) – Adam, the default optimizer for training most neural networks.
 - **[Batch Normalization](https://arxiv.org/abs/1502.03167)** (2015) – Normalizing layer inputs to make deep networks train faster and more stably.
-- **[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)** (2015) – Knowledge distillation: training a small model to mimic a large one.
 - **[Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)** (2015) – The original idea behind diffusion models.
 - **[U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)** (2015) – U-Net architecture, later the backbone of image diffusion models.
 - **[You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)** (2015) – YOLO made object detection fast enough for real time.
@@ -75,7 +78,6 @@ Landmark AI research papers, in timeline order, from the earliest ideas to today
 - **[Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961)** (2021) – Simplified Mixture of Experts to scale to a trillion parameters.
 - **[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)** (2021) – CLIP linked images and text, powering image search and generation.
 - **[RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)** (2021) – RoPE, the way most modern LLMs keep track of word order.
-- **[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)** (2021) – Cheap fine-tuning by training only small add-on weights.
 - **[Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)** (2021) – Codex, the model behind the first GitHub Copilot, plus the HumanEval benchmark.
 - **[Highly Accurate Protein Structure Prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2)** (2021) – AlphaFold 2 largely solved the 50-year-old protein folding problem.
 - **[High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)** (2021) – Latent diffusion, the basis of Stable Diffusion.
@@ -83,7 +85,6 @@ Landmark AI research papers, in timeline order, from the earliest ideas to today
 - **[Training Language Models to Follow Instructions with Human Feedback](https://arxiv.org/abs/2203.02155)** (2022) – InstructGPT: RLHF to make models helpful, the recipe behind ChatGPT.
 - **[Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556)** (2022) – Chinchilla showed models should be trained on far more data than before.
 - **[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311)** (2022) – Google's 540-billion-parameter model with strong reasoning abilities.
-- **[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)** (2022) – Made attention much faster by using GPU memory smartly.
 - **[Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682)** (2022) – Documented skills that appear suddenly as models get bigger.
 - **[ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)** (2022) – Models that alternate thinking and taking actions; a foundation of AI agents.
 - **[Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356)** (2022) – Whisper, a robust open speech-to-text model.
@@ -98,12 +99,10 @@ Landmark AI research papers, in timeline order, from the earliest ideas to today
 - **[Segment Anything](https://arxiv.org/abs/2304.02643)** (2023) – SAM, a model that can cut out any object in any image.
 - **[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)** (2023) – AI characters living, remembering and interacting in a small simulated town.
 - **[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)** (2023) – Exploring several reasoning paths instead of just one.
-- **[QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)** (2023) – Fine-tuning large models on a single GPU.
 - **[Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)** (2023) – An LLM agent that keeps learning new skills in Minecraft.
 - **[Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)** (2023) – DPO, a simpler alternative to RLHF.
 - **[Let's Verify Step by Step](https://arxiv.org/abs/2305.20050)** (2023) – Rewarding each reasoning step, not just the final answer, improves math.
 - **[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)** (2023) – Open chat models available for commercial use.
-- **[Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)** (2023) – vLLM, which made serving LLMs much faster and cheaper.
 - **[SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)** (2023) – Benchmark testing whether AI can fix real software bugs.
 - **[Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)** (2023) – A fast alternative to Transformers for long sequences.
 - **[Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805)** (2023) – Google's models built to handle text, images, audio and video together.
@@ -116,3 +115,68 @@ Landmark AI research papers, in timeline order, from the earliest ideas to today
 - **[The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292)** (2024) – An AI system that comes up with ideas, runs experiments and writes papers.
 - **[DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437)** (2024) – A frontier-level open model trained at a fraction of the usual cost.
 - **[DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)** (2025) – Open reasoning model trained mainly with reinforcement learning.
+
+## Training & Inference Optimization
+
+Papers on making AI models faster, cheaper and smaller to train and run. Each group is in timeline order.
+
+### Hardware
+
+- **[In-Datacenter Performance Analysis of a Tensor Processing Unit](https://arxiv.org/abs/1704.04760)** (2017) – Google's TPU, a custom chip built just for neural networks.
+- **[Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://doi.org/10.1109/ISCA45697.2020.00023)** (2020) – Groq's chip, later renamed the LPU (Language Processing Unit); compiler-scheduled and deterministic for very fast inference.
+
+### Training Efficiency
+
+- **[Training Deep Nets with Sublinear Memory Cost](https://arxiv.org/abs/1604.06174)** (2016) – Gradient checkpointing: recompute some values instead of storing them, to save memory.
+- **[Mixed Precision Training](https://arxiv.org/abs/1710.03740)** (2017) – Train in 16-bit numbers instead of 32-bit for roughly 2x speed and half the memory.
+- **[GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://arxiv.org/abs/1811.06965)** (2018) – Pipeline parallelism: split a model's layers across many chips.
+- **[Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)** (2019) – Tensor parallelism: split each layer across GPUs to train huge models.
+- **[ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/abs/1910.02054)** (2019) – Shards optimizer state, gradients and weights across GPUs (DeepSpeed).
+- **[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)** (2021) – Cheap fine-tuning by training only small add-on weights.
+- **[8-bit Optimizers via Block-wise Quantization](https://arxiv.org/abs/2110.02861)** (2021) – Stores optimizer state in 8 bits, cutting training memory a lot.
+- **[FP8 Formats for Deep Learning](https://arxiv.org/abs/2209.05433)** (2022) – Standard 8-bit floating-point formats now used in modern GPUs.
+- **[QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)** (2023) – Fine-tuning large models on a single GPU by combining 4-bit weights with LoRA.
+- **[Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/abs/2310.01889)** (2023) – Spreads very long sequences across many devices in a ring.
+- **[Microscaling Data Formats for Deep Learning](https://arxiv.org/abs/2310.10537)** (2023) – MX formats (like MXFP4): tiny number formats with shared scales for training and inference.
+
+### Faster Attention & Architecture
+
+- **[Fast Transformer Decoding: One Write-Head is All You Need](https://arxiv.org/abs/1911.02150)** (2019) – Multi-Query Attention (MQA): share keys and values to shrink the KV cache.
+- **[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)** (2022) – Made attention much faster by using GPU memory smartly.
+- **[GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245)** (2023) – Grouped-Query Attention, the middle ground used by most modern LLMs.
+- **[FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691)** (2023) – About 2x faster than FlashAttention through better GPU work splitting.
+- **[DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434)** (2024) – Introduced Multi-head Latent Attention (MLA), which compresses the KV cache heavily.
+- **[FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608)** (2024) – Uses newer GPU (Hopper) features and FP8 for even faster attention.
+- **[Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089)** (2025) – Attention that only looks at the important parts of long inputs, built to be fast on GPUs.
+
+### Quantization & Compression
+
+- **[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)** (2015) – Knowledge distillation: train a small model to mimic a large one.
+- **[Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](https://arxiv.org/abs/1510.00149)** (2015) – Shrank networks 35–49x by combining pruning and quantization.
+- **[The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635)** (2018) – Big networks contain small subnetworks that train just as well.
+- **[LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339)** (2022) – Run large models in 8 bits without losing quality by handling outliers separately.
+- **[GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323)** (2022) – Compress LLM weights to 3–4 bits after training.
+- **[SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438)** (2022) – Makes 8-bit weights and activations work by smoothing out outliers.
+- **[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774)** (2023) – Removes about half of a large model's weights in one pass.
+- **[AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978)** (2023) – 4-bit quantization that protects the most important weights; widely used for local models.
+- **[BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/abs/2310.11453)** (2023) – Trains language models with 1-bit weights from the start.
+- **[KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization](https://arxiv.org/abs/2401.18079)** (2024) – Quantizes the KV cache to enable extremely long contexts.
+- **[KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache](https://arxiv.org/abs/2402.02750)** (2024) – Shrinks the KV cache to 2 bits with no fine-tuning needed.
+- **[The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764)** (2024) – BitNet b1.58: weights of just -1, 0 or 1 can match full-precision models.
+- **[TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate](https://arxiv.org/abs/2504.19874)** (2025) – Google's method to compress the KV cache to about 3 bits with little to no accuracy loss.
+
+### Serving & Decoding
+
+- **[Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu)** (2022) – Continuous batching: add and remove requests at every step to keep GPUs busy.
+- **[Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192)** (2022) – A small model drafts tokens and a large model checks them, giving 2–3x speedups.
+- **[Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318)** (2023) – DeepMind's version of speculative decoding, published independently.
+- **[FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://arxiv.org/abs/2303.06865)** (2023) – Run huge models on one GPU by offloading to CPU memory and disk.
+- **[H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://arxiv.org/abs/2306.14048)** (2023) – Keeps only the most important tokens in the KV cache.
+- **[Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)** (2023) – vLLM, which manages KV cache memory like an operating system, making serving much cheaper.
+- **[Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)** (2023) – StreamingLLM: keep a few "sink" tokens to handle endless conversations.
+- **[Splitwise: Efficient Generative LLM Inference Using Phase Splitting](https://arxiv.org/abs/2311.18677)** (2023) – Runs the prompt-reading and token-writing phases on different machines.
+- **[SGLang: Efficient Execution of Structured Language Model Programs](https://arxiv.org/abs/2312.07104)** (2023) – RadixAttention reuses shared prompt prefixes for faster serving.
+- **[DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://arxiv.org/abs/2401.09670)** (2024) – Separates prefill and decoding to meet latency targets more cheaply.
+- **[Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/abs/2401.10774)** (2024) – Extra prediction heads guess several tokens at once, with no separate draft model.
+- **[EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/abs/2401.15077)** (2024) – Faster speculative decoding by drafting at the feature level.
+- **[EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test](https://arxiv.org/abs/2503.01840)** (2025) – Latest EAGLE version, with larger speedups that grow with more training data.
