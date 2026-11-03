@@ -1,6 +1,6 @@
 # Companies & Labs
 
-AI companies and research labs, and what they're working on — from the biggest names to underrated teams worth watching.
+AI companies and research labs building models and core AI technology, from the biggest names to underrated teams. For companies that apply AI in products, see [Applied AI Companies](applied-ai.md).
 
 [← Back to AI](README.md)
 

@@ -6,7 +6,8 @@ AI companies, research, papers, models, tools, agents and projects.
 
 | Topic | What goes here |
 | --- | --- |
-| [Companies & Labs](companies.md) | AI companies and research labs, and what they're working on |
+| [Applied AI Companies](applied-ai.md) | Companies using AI in real products: voice, ads, insights, legal, health and more |
+| [Companies & Labs](companies.md) | AI labs building models and core AI technology |
 | [Papers](papers.md) | Research papers, surveys and notable findings |
 | [Projects & Agents](projects.md) | AI agents, open-source projects and interesting experiments |
 | [Tools & Models](tools.md) | Models, frameworks, libraries and developer tools |
