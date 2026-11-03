@@ -4,25 +4,15 @@ AI research, papers, models, tools, agents, projects and interesting development
 
 [← Back to home](../README.md)
 
+| Topic | What goes here |
+| --- | --- |
+| [Agents & Projects](agents-and-projects.md) | AI agents, open-source projects and interesting experiments |
+| [Models & Tools](models-and-tools.md) | Models, frameworks, libraries and developer tools |
+| [Papers & Research](papers-and-research.md) | Research papers, surveys and notable findings |
+
 <!--
-  How to add an entry:
-  - Find the section that fits best and add your entry at the bottom of it.
-  - Format: - **[Resource Name](https://link)** – One-line description.
-  - No section fits? Add a new "## Heading" at the end of this file.
+  Adding a new topic?
+  1. Create a new .md file in this folder (lowercase, words separated by hyphens, e.g. "my-topic.md").
+     Copy an existing topic file as a template.
+  2. Add a row to the table above, keeping rows sorted alphabetically by topic name.
 -->
-
-## Papers & Research
-
-- **[Attention Is All You Need](https://arxiv.org/abs/1706.03762)** – The 2017 paper that introduced the Transformer architecture.
-
-<!-- Add research papers, surveys and notable findings here. -->
-
-## Models & Tools
-
-- **[Hugging Face](https://huggingface.co)** – Hub for open models, datasets and demos, plus popular ML libraries.
-
-<!-- Add models, frameworks, libraries and developer tools here. -->
-
-## Agents & Projects
-
-<!-- Add AI agents, open-source projects and interesting experiments here. -->

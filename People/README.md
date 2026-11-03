@@ -4,30 +4,16 @@ Engineers, researchers, designers, founders and people worth learning from.
 
 [← Back to home](../README.md)
 
+| Topic | What goes here |
+| --- | --- |
+| [Designers](designers.md) | Designers worth learning from |
+| [Engineers](engineers.md) | Engineers worth learning from |
+| [Founders](founders.md) | Founders and builders worth learning from |
+| [Researchers](researchers.md) | Researchers worth learning from |
+
 <!--
-  How to add an entry:
-  - Find the section that fits best and add your entry at the bottom of it.
-  - Format: - **[Person's Name](https://link)** – Who they are and why they're worth following.
-  - Link to a personal website, blog or main public profile.
-  - No section fits? Add a new "## Heading" at the end of this file.
+  Adding a new topic?
+  1. Create a new .md file in this folder (lowercase, words separated by hyphens, e.g. "my-topic.md").
+     Copy an existing topic file as a template.
+  2. Add a row to the table above, keeping rows sorted alphabetically by topic name.
 -->
-
-## Engineers
-
-- **[Julia Evans](https://jvns.ca)** – Writes friendly, approachable explanations and zines about systems and programming.
-
-<!-- Add engineers here. -->
-
-## Researchers
-
-- **[Andrej Karpathy](https://karpathy.ai)** – AI researcher known for clear educational content on neural networks and LLMs.
-
-<!-- Add researchers here. -->
-
-## Designers
-
-<!-- Add designers here. -->
-
-## Founders
-
-<!-- Add founders and builders here. -->

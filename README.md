@@ -20,9 +20,20 @@ A simple, community-maintained collection of inspirations, references, resources
   Please open an issue or mention it in your pull request first, so categories stay focused.
 -->
 
+## How it's organized
+
+Each category is a folder. Its `README.md` lists the topics inside it, and each topic has its own short file:
+
+```
+AI/
+├── README.md               ← list of AI topics
+├── models-and-tools.md     ← the actual entries
+└── papers-and-research.md
+```
+
 ## Entry format
 
-Every entry follows the same pattern:
+Every entry follows the same pattern, and each list is kept in alphabetical order:
 
 ```markdown
 - **[Resource Name](https://example.com)** – A short, one-line description of why it's useful.
