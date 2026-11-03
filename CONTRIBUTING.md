@@ -31,6 +31,8 @@ Prefer not to use Git? You can edit any file directly on GitHub (click the penci
 
 Keep entries in every list **sorted alphabetically by name (A → Z)**. The same applies to topic tables in category READMEs. It makes things easy to scan and helps spot duplicates.
 
+The one exception is [AI/papers.md](AI/papers.md), which is a timeline sorted by date (oldest first).
+
 ## Adding a new topic
 
 If no existing topic fits:
