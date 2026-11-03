@@ -56,8 +56,4 @@ Models, frameworks, libraries and developer tools for building with AI.
 
 ## Vector Databases
 
-- **[Chroma](https://www.trychroma.com)** – Open-source, easy-to-start embedding database for AI apps.
-- **[pgvector](https://github.com/pgvector/pgvector)** – Adds vector similarity search to PostgreSQL.
-- **[Pinecone](https://www.pinecone.io)** – Managed vector database for search and RAG at scale.
-- **[Qdrant](https://qdrant.tech)** – Fast open-source vector search engine written in Rust.
-- **[Weaviate](https://weaviate.io)** – Open-source vector database with built-in hybrid search.
+Vector databases (Pinecone, Qdrant, pgvector and more) are listed with when-to-use notes in [Backend → Databases](../Backend/databases.md#vector).

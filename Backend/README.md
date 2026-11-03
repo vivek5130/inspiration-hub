@@ -7,7 +7,7 @@ Backend architecture, system design, databases, APIs, infrastructure and enginee
 | Topic | What goes here |
 | --- | --- |
 | [APIs](apis.md) | API design guides, standards and tools |
-| [Databases](databases.md) | Database guides, internals and tools |
+| [Databases](databases.md) | Databases by type (SQL, NoSQL, graph, vector and more) with when to use each |
 | [Engineering Practices](engineering-practices.md) | Testing, code review, reliability and team practices |
 | [Infrastructure](infrastructure.md) | Cloud, DevOps, networking and deployment |
 | [System Design](system-design.md) | Architecture patterns, system design guides and case studies |
