@@ -1,6 +1,6 @@
-# Thinkers & Philosophers
+# Philosophers & Thinkers
 
-Philosophers, writers and thinkers whose ideas are worth learning from.
+Philosophers, writers and thinkers whose ideas shape how we see the world.
 
 [← Back to People](README.md)
 

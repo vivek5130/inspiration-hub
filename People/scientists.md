@@ -1,6 +1,6 @@
 # Scientists & Researchers
 
-Scientists and researchers across any field — worth learning from.
+Scientists and researchers in any field.
 
 [← Back to People](README.md)
 

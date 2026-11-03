@@ -1,11 +1,12 @@
 # AI
 
-AI research, papers, models, tools, agents, projects and interesting developments.
+AI companies, research, papers, models, tools, agents and projects.
 
 [← Back to home](../README.md)
 
 | Topic | What goes here |
 | --- | --- |
+| [Companies & Labs](companies.md) | AI companies and research labs, and what they're working on |
 | [Papers](papers.md) | Research papers, surveys and notable findings |
 | [Projects & Agents](projects.md) | AI agents, open-source projects and interesting experiments |
 | [Tools & Models](tools.md) | Models, frameworks, libraries and developer tools |

@@ -1,6 +1,6 @@
-# Builders
+# Engineers & Builders
 
-Engineers, designers and founders who make things — worth learning from.
+Engineers, designers, founders and other people who build things.
 
 [← Back to People](README.md)
 
