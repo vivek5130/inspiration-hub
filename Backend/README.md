@@ -10,7 +10,8 @@ Backend architecture, system design, databases, APIs, infrastructure and enginee
 | [Databases](databases.md) | Databases by type (SQL, NoSQL, graph, vector and more) with when to use each |
 | [Engineering Practices](engineering-practices.md) | Testing, code review, reliability and team practices |
 | [Infrastructure](infrastructure.md) | Cloud, DevOps, networking and deployment |
-| [System Design](system-design.md) | Architecture patterns, system design guides and case studies |
+| [System Design](system-design.md) | Core concepts by topic (caching, auth, rate limiting, queues and more) with trade-offs and tools |
+| [System Design Interviews](system-design-interviews.md) | Interview framework, numbers cheat sheet and the most asked questions by category |
 
 <!--
   Adding a new topic?
