@@ -24,8 +24,8 @@ Interesting open-source AI projects people are building: agents, coding assistan
 - **[Langflow](https://github.com/langflow-ai/langflow)** – Drag-and-drop builder for AI agents and workflows.
 - **[Langfuse](https://github.com/langfuse/langfuse)** – Tracing, evaluation and monitoring for LLM apps and agents.
 - **[LangGraph](https://github.com/langchain-ai/langgraph)** – Build reliable agents as graphs of steps, with memory and human checkpoints.
-- **[Mem0](https://github.com/mem0ai/mem0)** – Memory layer that lets AI apps and agents remember users over time.
 - **[MCP Servers](https://github.com/modelcontextprotocol/servers)** – Reference servers for the Model Context Protocol, the standard way to connect AI to tools and data.
+- **[Mem0](https://github.com/mem0ai/mem0)** – Memory layer that lets AI apps and agents remember users over time.
 - **[Promptfoo](https://github.com/promptfoo/promptfoo)** – Test and red-team prompts, agents and RAG systems before shipping.
 - **[smolagents](https://github.com/huggingface/smolagents)** – Hugging Face's tiny library for agents that act by writing code.
 - **[Superpowers](https://github.com/obra/superpowers)** – Skills framework and development method that makes coding agents work more reliably.
