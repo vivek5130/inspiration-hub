@@ -11,6 +11,7 @@ Databases grouped by type, with a quick guide on when to use each, plus resource
   - Put it under the type that fits best. A new type? Add a "## Heading" with
     "Use when", "Pros" and "Cons" lines, in the same style as the others.
   - Types are ordered from most common to more specialized. Learning resources stay at the bottom.
+  - Adding a new type? Also add it to the Quick Guide table, the Database Map and the flowchart below.
   - Keep entries inside each section sorted alphabetically by name (A → Z).
   - Search the repository first to avoid duplicates.
 -->
@@ -31,6 +32,72 @@ Databases grouped by type, with a quick guide on when to use each, plus resource
 | [Analytical (OLAP)](#analytical-olap) | Reports and analytics over large data | ClickHouse, DuckDB, BigQuery |
 
 **Not sure?** Start with PostgreSQL. It handles most workloads well and has extensions for search, vectors and time-series, so add a specialized database only when you hit a real limit.
+
+## Database Map
+
+How the types fit together: classic **SQL**, the **NoSQL** family, and **specialized** databases built for one job.
+
+```mermaid
+mindmap
+  root((Databases))
+    SQL
+      Relational
+        PostgreSQL
+        MySQL
+        SQLite
+      Distributed SQL
+        CockroachDB
+        Spanner
+    NoSQL
+      Key-Value
+        Redis
+        DynamoDB
+      Document
+        MongoDB
+        Firestore
+      Wide-Column
+        Cassandra
+        ScyllaDB
+      Graph
+        Neo4j
+        Memgraph
+    Specialized
+      Time-Series
+        TimescaleDB
+        InfluxDB
+      Search
+        Elasticsearch
+        Meilisearch
+      Vector
+        pgvector
+        Qdrant
+      Analytical OLAP
+        ClickHouse
+        DuckDB
+```
+
+## Which Database Should I Use?
+
+Follow the questions from left to right to find a good starting point.
+
+```mermaid
+flowchart LR
+    A([What are you storing?]) --> B{Structured data with<br/>relationships and<br/>transactions?}
+    B -- Yes --> C{Must it scale across<br/>many servers or regions?}
+    C -- No --> REL[Relational SQL<br/>PostgreSQL · MySQL · SQLite]
+    C -- Yes --> DSQL[Distributed SQL<br/>CockroachDB · Spanner · TiDB]
+    B -- No --> D{What is the<br/>main job?}
+    D -- Cache, sessions, fast lookups --> KV[Key-Value<br/>Redis · Valkey · DynamoDB]
+    D -- Flexible JSON documents --> DOC[Document<br/>MongoDB · Firestore]
+    D -- Huge writes, known queries --> WC[Wide-Column<br/>Cassandra · ScyllaDB]
+    D -- Connections between things --> GR[Graph<br/>Neo4j · Memgraph]
+    D -- Measurements over time --> TS[Time-Series<br/>TimescaleDB · InfluxDB]
+    D -- Text search --> SE[Search<br/>Elasticsearch · Meilisearch]
+    D -- Search by meaning, AI --> VE[Vector<br/>pgvector · Qdrant · Pinecone]
+    D -- Reports and analytics --> OL[Analytical OLAP<br/>ClickHouse · DuckDB · BigQuery]
+```
+
+Real systems often combine several. A common setup is PostgreSQL as the main database, Redis for caching, and a search or vector database alongside.
 
 ## Relational (SQL)
 
