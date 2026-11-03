@@ -8,7 +8,7 @@ A simple, community-maintained collection of inspirations, references, resources
 | --- | --- |
 | [AI](AI/README.md) | AI research, papers, models, tools, agents, projects and interesting developments |
 | [Design](Design/README.md) | UI/UX, visual inspiration, 3D, animations, typography and portfolio websites |
-| [People](People/README.md) | Engineers, researchers, designers, founders and people worth learning from |
+| [People](People/README.md) | Builders, scientists, thinkers and people worth learning from |
 | [Learning](Learning/README.md) | Books, articles, courses, tutorials and useful resources |
 | [Business](Business/README.md) | Startups, business models, product ideas and marketing |
 | [Backend](Backend/README.md) | Backend architecture, system design, databases, APIs, infrastructure and engineering practices |
@@ -26,9 +26,10 @@ Each category is a folder. Its `README.md` lists the topics inside it, and each 
 
 ```
 AI/
-├── README.md               ← list of AI topics
-├── models-and-tools.md     ← the actual entries
-└── papers-and-research.md
+├── README.md   ← list of AI topics
+├── papers.md   ← the actual entries
+├── projects.md
+└── tools.md
 ```
 
 ## Entry format

@@ -1,15 +1,14 @@
 # People
 
-Engineers, researchers, designers, founders and people worth learning from.
+Builders, scientists, thinkers and people worth learning from.
 
 [← Back to home](../README.md)
 
-| Topic | What goes here |
+| Topic | Who goes here |
 | --- | --- |
-| [Designers](designers.md) | Designers worth learning from |
-| [Engineers](engineers.md) | Engineers worth learning from |
-| [Founders](founders.md) | Founders and builders worth learning from |
-| [Researchers](researchers.md) | Researchers worth learning from |
+| [Builders](builders.md) | Engineers, designers and founders |
+| [Scientists & Researchers](scientists.md) | Scientists and researchers in any field |
+| [Thinkers & Philosophers](thinkers.md) | Philosophers, writers and thinkers |
 
 <!--
   Adding a new topic?

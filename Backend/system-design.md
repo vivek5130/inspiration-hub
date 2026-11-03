@@ -1,4 +1,4 @@
-# System Design & Architecture
+# System Design
 
 Architecture patterns, system design guides and case studies.
 

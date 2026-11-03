@@ -1,12 +1,13 @@
-# Engineers
+# Builders
 
-Engineers worth learning from. Link to a personal website, blog or main public profile.
+Engineers, designers and founders who make things — worth learning from.
 
 [← Back to People](README.md)
 
 <!--
   How to add an entry:
-  - Format: - **[Resource Name](https://link)** – One-line description.
+  - Format: - **[Name](https://link)** – Who they are and why they are worth learning from.
+  - Link to a personal website, blog or main public profile.
   - Keep the list sorted alphabetically by name (A → Z).
   - Search the repository first to avoid duplicates.
 -->

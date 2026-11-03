@@ -6,9 +6,9 @@ AI research, papers, models, tools, agents, projects and interesting development
 
 | Topic | What goes here |
 | --- | --- |
-| [Agents & Projects](agents-and-projects.md) | AI agents, open-source projects and interesting experiments |
-| [Models & Tools](models-and-tools.md) | Models, frameworks, libraries and developer tools |
-| [Papers & Research](papers-and-research.md) | Research papers, surveys and notable findings |
+| [Papers](papers.md) | Research papers, surveys and notable findings |
+| [Projects & Agents](projects.md) | AI agents, open-source projects and interesting experiments |
+| [Tools & Models](tools.md) | Models, frameworks, libraries and developer tools |
 
 <!--
   Adding a new topic?

@@ -10,7 +10,7 @@ Backend architecture, system design, databases, APIs, infrastructure and enginee
 | [Databases](databases.md) | Database guides, internals and tools |
 | [Engineering Practices](engineering-practices.md) | Testing, code review, reliability and team practices |
 | [Infrastructure](infrastructure.md) | Cloud, DevOps, networking and deployment |
-| [System Design & Architecture](system-design.md) | Architecture patterns, system design guides and case studies |
+| [System Design](system-design.md) | Architecture patterns, system design guides and case studies |
 
 <!--
   Adding a new topic?

@@ -1,4 +1,4 @@
-# Agents & Projects
+# Projects & Agents
 
 AI agents, open-source projects and interesting experiments.
 

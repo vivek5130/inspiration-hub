@@ -6,12 +6,12 @@ Thanks for helping grow this collection! You don't need to be an expert — if y
 
 - Each **category** is a folder (for example, `AI/`).
 - Each category's `README.md` lists its **topics**.
-- Each topic is its own file (for example, `AI/papers-and-research.md`), and that's where entries go.
+- Each topic is its own file (for example, `AI/papers.md`), and that's where entries go.
 
 ## How to contribute
 
 1. **Fork the repository** using the "Fork" button at the top of the GitHub page.
-2. **Find the right topic file** by opening a category folder and choosing the best-fitting topic (for example, `AI/models-and-tools.md`).
+2. **Find the right topic file** by opening a category folder and choosing the best-fitting topic (for example, `AI/tools.md`).
 3. **Add your resource** using the format below, in its alphabetical place in the list.
 4. **Commit your change** with a short message, such as `Add Hugging Face to AI`.
 5. **Open a pull request** with a brief description of what you added and why it's useful.

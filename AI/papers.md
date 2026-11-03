@@ -1,4 +1,4 @@
-# Papers & Research
+# Papers
 
 Research papers, surveys and notable findings.
 
