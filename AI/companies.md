@@ -60,4 +60,5 @@ AI companies and research labs building models and core AI technology, from the 
 - **[Physical Intelligence](https://www.physicalintelligence.company)** – General-purpose AI models (the π series) that help robots learn many different tasks.
 - **[Prime Intellect](https://www.primeintellect.ai)** – Trains open models using compute pooled from around the world.
 - **[Sakana AI](https://sakana.ai)** – Tokyo lab exploring nature-inspired AI, like model merging and "The AI Scientist".
+- **[Sarvam AI](https://www.sarvam.ai)** – India-based lab building speech and language models trained for Indian languages.
 - **[Skild AI](https://www.skild.ai)** – Building a general-purpose "robot brain" that works across many kinds of robots.
